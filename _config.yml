@@ -1,0 +1,14 @@
+# Configurações básicas do Jekyll
+title: Meu Site
+description: Um site estático usando apenas HTML e CSS.
+baseurl: ""  # Deixe vazio se não estiver usando subdiretórios
+url: ""      # URL base do seu site
+
+# Desabilitar todos os recursos do Jekyll
+collections: []  # Não use coleções
+plugins: []      # Não use plugins
+exclude:        # Excluir arquivos e pastas que você não quer processar
+  - _posts       # Excluir posts, se não usar
+  - _layouts     # Excluir layouts, se não usar
+  - _includes    # Excluir includes, se não usar
+  - .gitignore   # Excluir .gitignore, se presente
